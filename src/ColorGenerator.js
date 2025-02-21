@@ -58,8 +58,8 @@ const ColorGenerator = () => {
         </button>
       </div>
 
-      {copiedHex && <p style={{ marginTop: "10px", color: "green" }}>Cor no formato Hexadecimal copiada!</p>}
-      {copiedRgb && <p style={{ marginTop: "10px", color: "green" }}>Cor no formato RGB copiada!</p>}
+      {copiedHex && <p style={{ marginTop: "10px", color: "green", fontSize: "20px" }}>Cor no formato Hexadecimal copiada!</p>}
+      {copiedRgb && <p style={{ marginTop: "10px", color: "green", fontSize: "20px" }}>Cor no formato RGB copiada!</p>}
     </div>
   );
 };
